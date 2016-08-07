@@ -1,8 +1,7 @@
 import re
 import urllib.request
 
-print("Welcome to online Dictionay App.")
-print('Enter any word to get its definition or enter "q" to quit.')
+print('Welcome to online Dictionay App.\nEnter any word to get its definition or enter "q" to quit.')
 
 while True:
 	try:
@@ -37,4 +36,4 @@ while True:
 		print('Sorry, The word "' + keyword + '" does not exist.')
 
 	except:
-		print('Sorry, The word "' + keyword + '" does not exist.')
+		print('Sorry, Something went wrong. Please try again.')
